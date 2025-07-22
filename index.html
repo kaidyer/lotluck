@@ -11,31 +11,25 @@
 </head>
 <body>
 
-  <h1>LotLuck</h1>
+    <h1>LotLuck</h1>
 
-  <div class="post">
-    <h2>🛫 ILM — Enterprise</h2>
-    <p><span class="tag">Reserved:</span> Intermediate SUV</p>
-    <p><span class="tag">Got:</span> Nissan Rogue SV</p>
-    <p><span class="tag">Status:</span> No elite status</p>
-    <p><strong>Notes:</strong> Basic model, clean interior, ~20k miles</p>
-  </div>
-
-  <div class="post">
-    <h2>🛫 ATL — Hertz</h2>
-    <p><span class="tag">Reserved:</span> Economy</p>
-    <p><span class="tag">Got:</span> Chrysler 300 (free upgrade!)</p>
-    <p><span class="tag">Status:</span> Gold Member</p>
-    <p><strong>Notes:</strong> Smooth pickup, car was spotless</p>
-  </div>
-
-  <div class="post">
-    <h2>🛫 LAX — Budget</h2>
-    <p><span class="tag">Reserved:</span> Full-size SUV</p>
-    <p><span class="tag">Got:</span> Ford Edge ST</p>
-    <p><span class="tag">Status:</span> None</p>
-    <p><strong>Notes:</strong> Took 30 mins to get the car, but worth it</p>
-  </div>
-
+    <div class="container">
+        <div class="posts-section" id="postList">
+            <!-- Posts will be inserted here -->
+            <script src="app.js"></script>
+        </div>
+        <div class="form-section">
+            <form id="postForm">
+                <h2>Tell Us About Your Experience</h2>
+                <input type="text" id="airport" placeholder="Airport" required />
+                <input type="text" id="company" placeholder="Rental Company" required />
+                <input type="text" id="reserved" placeholder="Reserved Car" required />
+                <input type="text" id="got" placeholder="Car Received" required />
+                <input type="text" id="status" placeholder="Loyalty Status" />
+                <textarea id="notes" placeholder="Notes"></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
