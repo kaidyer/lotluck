@@ -1,19 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f7f7f7;
+    font-family: "Bitcount Prop Single", system-ui;
+    background: #565676;
     padding: 20px;
 }
 h1 {
     text-align: center;
     margin-bottom: 30px;
+    color: #AEADF0;
 }
 .post {
-    background: white;
+    background: #A76571;
     padding: 15px 20px;
     margin: 10px auto;
     border-radius: 8px;
     max-width: 500px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: #AEADF0;
 }
 .post h2 {
     margin: 0 0 10px;
@@ -25,7 +27,7 @@ h1 {
 }
 .tag {
     display: inline-block;
-    background: #e0e0e0;
+    background: #C38D94;
     color: #333;
     padding: 2px 8px;
     margin-right: 5px;
