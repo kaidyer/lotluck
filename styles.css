@@ -14,7 +14,7 @@ h1 {
     margin: 10px auto;
     border-radius: 8px;
     max-width: 500px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 20px 20px 3px rgba(0,0,0,0.1);
     color: #AEADF0;
 }
 .post h2 {
@@ -28,7 +28,7 @@ h1 {
 .tag {
     display: inline-block;
     background: #C38D94;
-    color: #333;
+    color: #565676;
     padding: 2px 8px;
     margin-right: 5px;
     font-size: 0.85em;
