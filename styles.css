@@ -40,6 +40,7 @@ button {
     color: #565676;
     border-radius: 4px;
     font-family: "Bitcount Prop Single", system-ui;
+    width: 100%;
 }
 
 .container {
@@ -65,4 +66,17 @@ button {
 
 .posts-section {
   flex: 1;
+}
+
+input, textarea {
+    background: #D8DCFF;
+    color: #565676;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid transparent;
+    font-family: inherit;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
 }
