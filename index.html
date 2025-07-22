@@ -13,19 +13,23 @@
 
     <h1>LotLuck</h1>
 
-    <div class="post">
-        <form id="postForm">
-            <h2>Submit a Rental Car Report</h2>
-            <input type="text" id="airport" placeholder="Airport (e.g. ILM)" required />
-            <input type="text" id="company" placeholder="Rental Company (e.g. Enterprise)" required />
-            <input type="text" id="reserved" placeholder="Reserved Class (e.g. Intermediate SUV)" required />
-            <input type="text" id="got" placeholder="Car Received (e.g. Nissan Rogue SV)" required />
-            <input type="text" id="status" placeholder="Loyalty Status (e.g. Gold Member)" />
-            <textarea id="notes" placeholder="Notes"></textarea>
-            <button type="submit">Post</button>
-        </form>
+    <div class="container">
+        <div class="posts-section" id="postList">
+            <!-- Posts will be inserted here -->
+            <script src="app.js"></script>
+        </div>
+        <div class="form-section">
+            <form id="postForm">
+                <h2>Tell Us About Your Experience</h2>
+                <input type="text" id="airport" placeholder="Airport" required />
+                <input type="text" id="company" placeholder="Rental Company" required />
+                <input type="text" id="reserved" placeholder="Reserved Car" required />
+                <input type="text" id="got" placeholder="Car Received" required />
+                <input type="text" id="status" placeholder="Loyalty Status" />
+                <textarea id="notes" placeholder="Notes"></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </div>
     </div>
-
-    <script src="app.js"></script>
 </body>
 </html>

@@ -35,7 +35,7 @@ posts.forEach((post) => {
     <p><span class="tag">Status:</span> ${post.status}</p>
     <p><strong>Notes:</strong> ${post.notes}</p>
   `;
-  document.body.appendChild(div);
+  document.getElementById("postList").appendChild(div);
 });
 
 const form = document.getElementById("postForm");
@@ -62,6 +62,6 @@ form.addEventListener("submit", function (e) {
     <p><strong>Notes:</strong> ${newPost.notes}</p>
   `;
 
-  document.body.appendChild(div);
+  document.getElementById("postList").appendChild(div);
   form.reset();
 });

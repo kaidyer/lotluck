@@ -34,3 +34,35 @@ h1 {
     font-size: 0.85em;
     border-radius: 4px;
 }
+
+button {
+    background: #C38D94;
+    color: #565676;
+    border-radius: 4px;
+    font-family: "Bitcount Prop Single", system-ui;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.form-section {
+    flex: 0 0 30%;
+    min-width: 150px;
+    max-width: 250px;
+    background: #A76571;
+    padding: 15px 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 20px 20px 3px rgba(0,0,0,0.1);
+    color: #AEADF0;
+}
+
+.posts-section {
+  flex: 1;
+}
