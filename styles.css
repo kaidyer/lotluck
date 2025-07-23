@@ -11,6 +11,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000; /* stay above other content */
+  background-color: #565676;
+  padding: 5px
 }
 
 /* === Flex Utility Classes === */
