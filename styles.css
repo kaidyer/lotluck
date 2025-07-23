@@ -93,6 +93,10 @@ button {
     color: #AEADF0;
 }
 
+.form-section textarea {
+    resize: vertical;
+}
+
 .posts-section {
   flex: 1;
 }
