@@ -5,7 +5,8 @@ const posts = [
     reserved: "Intermediate SUV",
     got: "Nissan Rogue SV",
     status: "No elite status",
-    notes: "Basic model, clean interior, ~20k miles"
+    notes: "Basic model, clean interior, ~20k miles",
+    user: "mjackson"
   },
   {
     airport: "ATL",
@@ -13,7 +14,8 @@ const posts = [
     reserved: "Economy",
     got: "Chrysler 300 (free upgrade!)",
     status: "Gold Member",
-    notes: "Smooth pickup, car was spotless"
+    notes: "Smooth pickup, car was spotless",
+    user: "psmith"
   },
   {
     airport: "LAX",
@@ -21,7 +23,8 @@ const posts = [
     reserved: "Full-size SUV",
     got: "Ford Edge ST",
     status: "None",
-    notes: "Took 30 mins to get the car, but worth it"
+    notes: "Took 30 mins to get the car, but worth it",
+    user: "scombs"
   }
 ];
 
@@ -30,6 +33,7 @@ posts.forEach((post) => {
   div.className = "post";
   div.innerHTML = `
     <h2>🛫 ${post.airport} — ${post.company}</h2>
+    <p>@${post.user}</p>
     <p><span class="tag">Reserved:</span> ${post.reserved}</p>
     <p><span class="tag">Got:</span> ${post.got}</p>
     <p><span class="tag">Status:</span> ${post.status}</p>
