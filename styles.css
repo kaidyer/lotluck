@@ -1,8 +1,35 @@
+/* Global */
 body {
     font-family: "Bitcount Prop Single", system-ui;
     background: #565676;
+    color: #AEADF0;
     padding: 20px;
 }
+
+/* === Header / Navigation === */
+.site_header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* stay above other content */
+}
+
+/* === Flex Utility Classes === */
+.flex {
+    display: flex;
+    align-items: center;
+    list-style: none; /* Remove bullets */
+    padding: 0;       /* Remove default padding */
+    margin: 0;        /* Remove default margin */
+}
+
+.flex_center {
+    justify-content: center;
+}
+
+.flex > li {
+  margin: 0 10px; /* 15px left and right spacing */
+}
+
 h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -79,4 +106,22 @@ input, textarea {
     font-size: 1em;
     width: 100%;
     box-sizing: border-box;
+}
+
+/* === Anchor / Link Styles === */
+a:link {
+  color: #AEADF0;
+}
+
+a:visited {
+  color: #D8DCFF;
+}
+
+a:hover {
+  color: #C38D94;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #A76571;
 }
