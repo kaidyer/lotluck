@@ -1,0 +1,133 @@
+/* Global */
+body {
+    font-family: "Bitcount Prop Single", system-ui;
+    background: #565676;
+    color: #AEADF0;
+    padding: 20px;
+}
+
+/* === Header / Navigation === */
+.site_header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* stay above other content */
+  background-color: #565676;
+  padding: 5px
+}
+
+/* === Flex Utility Classes === */
+.flex {
+    display: flex;
+    align-items: center;
+    list-style: none; /* Remove bullets */
+    padding: 0;       /* Remove default padding */
+    margin: 0;        /* Remove default margin */
+}
+
+.flex_center {
+    justify-content: center;
+}
+
+.flex > li {
+  margin: 0 10px; /* 15px left and right spacing */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #AEADF0;
+}
+.post {
+    background: #A76571;
+    padding: 15px 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 20px 20px 3px rgba(0,0,0,0.1);
+    color: #AEADF0;
+}
+.post h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+.post p {
+    margin: 4px 0;
+    font-size: 0.95em;
+}
+.tag {
+    display: inline-block;
+    background: #C38D94;
+    color: #565676;
+    padding: 2px 8px;
+    margin-right: 5px;
+    font-size: 0.85em;
+    border-radius: 4px;
+}
+
+button {
+    background: #C38D94;
+    color: #565676;
+    border-radius: 4px;
+    font-family: "Bitcount Prop Single", system-ui;
+    width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.form-section {
+    flex: 0 0 30%;
+    min-width: 150px;
+    max-width: 250px;
+    background: #A76571;
+    padding: 15px 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 20px 20px 3px rgba(0,0,0,0.1);
+    color: #AEADF0;
+}
+
+.form-section textarea {
+    resize: vertical;
+}
+
+.posts-section {
+  flex: 1;
+}
+
+input, textarea {
+    background: #D8DCFF;
+    color: #565676;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid transparent;
+    font-family: inherit;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* === Anchor / Link Styles === */
+a:link {
+  color: #AEADF0;
+}
+
+a:visited {
+  color: #D8DCFF;
+}
+
+a:hover {
+  color: #C38D94;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #A76571;
+}
